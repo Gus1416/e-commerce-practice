@@ -36,6 +36,11 @@
     cursor: pointer;
 }
 
+.nav-menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .nav-menu hr {
     border: none;
     width: 80%;
