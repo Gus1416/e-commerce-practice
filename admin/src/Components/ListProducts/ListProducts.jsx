@@ -45,10 +45,8 @@ const ListProducts = () => {
         <hr />
         {allproducts.map((product, index) => {
           return (
-            <>
-              <div
-                key={index}
-                className="listproducts-format-main listproducts-format"
+            <div key={index}>
+              <div className="listproducts-format-main listproducts-format"
               >
                 <img
                   src={product.image}
@@ -67,7 +65,7 @@ const ListProducts = () => {
                 />
               </div>
               <hr />
-            </>
+            </div>
           );
         })}
       </div>
